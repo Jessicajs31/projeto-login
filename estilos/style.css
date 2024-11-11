@@ -5,5 +5,40 @@
     .Tropical-Fruit-Punch-1-hex { color: #146152; }
     .Tropical-Fruit-Punch-2-hex { color: #B4CF66; }
     .Tropical-Fruit-Punch-3-hex { color: #FF5A33; }
+
+    *{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box; /* para a borda fazer parte da largura */
+    }
+     body,html{ 
+        background-color: #B4CF66;
+        height: 100vh; /* 100% da tela */
+        width: 100vw;
+     }
+     main{ height: 100vh;
+     width: 100vw; 
+     position: relative; /* centralizar*/} 
     
- 
+     section#login { position: absolute; 
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-color: white;
+     width: 250px; /*altura */
+     height: 500px; /*largura */
+     border-radius: 20px; /*bordas*/
+     overflow: hidden; /* a imagem fica dentro da borda */
+      box-shadow:0px 0px 10px #00000086;
+     }
+     section#login>div#imagem { background-image: url(../imagens/pexels-cottonbro-10131798\ \(1\).jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px; /* tamanho da imagem*/
+        display: block;
+       
+      }
+      section#login> div#formulario{ padding: 10px;
+        display: block;
+     }
