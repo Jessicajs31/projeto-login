@@ -13,7 +13,7 @@
         box-sizing: border-box; /* para a borda fazer parte da largura */
     }
      body,html{ 
-        background-color: #B4CF66;
+        background-color:#B4CF66;
         height: 100vh; /* 100% da tela */
         width: 100vw;
      }
@@ -31,6 +31,8 @@
      border-radius: 20px; /*bordas*/
      overflow: hidden; /* a imagem fica dentro da borda */
       box-shadow:0px 0px 10px #00000086;
+      transition: width 1s, height 1s; /* tranziçao entre uma foto e outra media query*/
+      transition-timing-function: ease; /*suavizar tranzição*/
      }
      section#login>div#imagem { background-image: url(../imagens/pexels-cottonbro-10131798\ \(1\).jpg);
         background-size: cover;
