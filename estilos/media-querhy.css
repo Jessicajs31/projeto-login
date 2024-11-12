@@ -7,10 +7,12 @@
  desktop grandes -- 1281px a 1440px */
 
   @media screen and  (min-width: 601px) and (max-width:768px) {
-    
+    /*configuração para tablet*/
+
     body { background-image: linear-gradient(to top,#146152,#B4CF66); }
 
-    section#login { width: 80vw;}
+    section#login { width: 80vw; 
+     height: 280px;}
     
     section#login>div#imagem { float: left;
          width: 30%;
@@ -20,7 +22,8 @@
      width: 70%;}
 }
     @media screen and (min-width:1025px){
-        section#login { width:1020px;}
+        section#login { width:1020px;
+        height:350px;}
 
         section#login> div#imagem { float: right;
         width: 50%; /* dividir a tela entre imagem e formulario*/
