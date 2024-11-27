@@ -24,7 +24,8 @@
     @media screen and (min-width:1025px){
         section#login { width:1020px;
         height:350
-        px;}
+    px;}
+    
 
         section#login> div#imagem { float: right;
         width: 50%; /* dividir a tela entre imagem e formulario*/
