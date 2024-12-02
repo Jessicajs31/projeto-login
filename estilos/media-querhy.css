@@ -9,7 +9,11 @@
   @media screen and  (min-width: 601px) and (max-width:768px) {
     /*configuração para tablet*/
 
-    body { background-image: linear-gradient(to top,#146152,#B4CF66); }
+    body { background-image: linear-gradient(to top,#146152,#B4CF66);
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center }
 
     section#login { width: 80vw; 
      height: 280px;}
